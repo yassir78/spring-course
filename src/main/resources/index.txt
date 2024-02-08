@@ -1,0 +1,17 @@
+- Spring in Context
+* Inversion of Control and Dependency Injection
+  🥑 With the Hollywood Principle, framework code invokes application code,
+  coordinating overall workflow, rather than application code invoking framework
+  code.
+  🥑 Dependency Injection is based on Java language constructs, rather than the use of
+    framework-specific interfaces. Instead of application code using framework APIs to resolve
+    dependencies such as configuration parameters and collaborating objects, application
+    classes expose their dependencies through methods or constructors that the framework
+    can call with the appropriate values at runtime, based on configuration.
+  🥑 Dependency Injection is a form of push configuration; the container "pushes" dependencies into application
+    objects at runtime.
+  🥑 Spring supports several types of Dependency Injection :
+    🎲 Setter Injection
+    🎲 Constructor Injection
+    🎲 Method Injection
+
